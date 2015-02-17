@@ -15,7 +15,7 @@
     void yyerror(char *s);
     int sym[26];
 
-    /* Esto es un simple comentario */
+    /* Esto es un simple comentario123 */
 
     extern char* variables_nombres[TABSIZE];
     extern int variables_valores[TABSIZE];
