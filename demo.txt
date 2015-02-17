@@ -1,0 +1,9 @@
+print 1.5 + "diego" + "ricardo";
+$a = 100;
+while($a > 0){
+	print $a;
+	print ", ";
+	$a = $a - 1;
+}
+
+

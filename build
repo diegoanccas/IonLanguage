@@ -1,0 +1,6 @@
+flex ion.l
+bison -y -d ion.y
+gcc -c y.tab.c lex.yy.c
+gcc y.tab.o lex.yy.o ion_i.c -o ion_i.exe
+#gcc y.tab.o lex.yy.o ion_c.c -o ion_c.exe
+#gcc y.tab.o lex.yy.o ion_g.c -o ion_g.exe
